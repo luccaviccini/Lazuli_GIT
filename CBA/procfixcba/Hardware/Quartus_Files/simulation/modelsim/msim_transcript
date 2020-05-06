@@ -1,0 +1,116 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do procfixcba_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/ula_fx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ula_fx
+# 
+# Top level modules:
+# 	ula_fx
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/stack_pointer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module stack_pointer
+# 
+# Top level modules:
+# 	stack_pointer
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/proc_fx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module proc_fx
+# 
+# Top level modules:
+# 	proc_fx
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/prefetch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module prefetch
+# 
+# Top level modules:
+# 	prefetch
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/positivo_fx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module positivo_fx
+# 
+# Top level modules:
+# 	positivo_fx
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/mem_instr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mem_instr
+# 
+# Top level modules:
+# 	mem_instr
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/mem_data.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mem_data
+# 
+# Top level modules:
+# 	mem_data
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/instr_dec_fx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instr_dec_fx
+# 
+# Top level modules:
+# 	instr_dec_fx
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/core_fx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module core_fx
+# 
+# Top level modules:
+# 	core_fx
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Proc_IP/addr_dec.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addr_dec
+# 
+# Top level modules:
+# 	addr_dec
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/procfixcba_H {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/procfixcba_H/procfixcba.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module procfixcba
+# 
+# Top level modules:
+# 	procfixcba
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Quartus_Files {C:/Users/LuccaViccini/Desktop/UFJF/IC/VIC_CERN/CBA/procfixcba/Hardware/Quartus_Files/procfixcba_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module procfixcba_tb
+# 
+# Top level modules:
+# 	procfixcba_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  procfixcba_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps procfixcba_tb 
+# Loading work.procfixcba_tb
+# Loading work.procfixcba
+# Loading work.proc_fx
+# Loading work.mem_data
+# Loading work.addr_dec
+# Loading work.core_fx
+# Loading work.pc
+# Loading work.prefetch
+# Loading work.instr_dec_fx
+# Loading work.stack_pointer
+# Loading work.ula_fx
+# Loading work.positivo_fx
+# Loading work.mem_instr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 ps
+run 100ns
