@@ -1,0 +1,24 @@
+#PRNAME detetor_top
+#DIRNAM "C:"
+#DATYPE 1
+#NUBITS 32
+#NBMANT 22
+#NBEXPO 7
+#NDSTAC 16
+#SDEPTH 5
+#NUIOIN 34
+#NUIOOU 19
+CALL main
+@fim JMP fim
+@max SET maxnum1
+LOAD 4
+ADD maxnum1
+SET maxnum1
+LOAD maxnum1
+RETURN
+@main LOAD -5
+NORM
+SET maina
+LOAD maina
+CALL max
+RETURN
