@@ -1,5 +1,5 @@
 ('C:\\Users\\LuccaViccini\\Desktop\\My_Git\\Python\\Lazuli\\dist\\IDE.exe',
- True,
+ False,
  False,
  False,
  'lazuli.ico',
@@ -2827,7 +2827,7 @@
  [],
  False,
  False,
- 1597799591,
- [('run.exe',
-   'c:\\users\\luccaviccini\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
+ 1597799836,
+ [('runw.exe',
+   'c:\\users\\luccaviccini\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\runw.exe',
    'EXECUTABLE')])
