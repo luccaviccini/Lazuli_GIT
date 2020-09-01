@@ -1,1 +1,1 @@
-Coisas_Importantes
+Esse reposotório é para a Administradora Lázuli
