@@ -49,6 +49,7 @@ def somar_os_creditos():
     filer = open(root.filename,"r") # arquivo a ser lido
     #filew = open ("Soma_creditos.txt", "w") # novo arquivo otimizado
     global soma
+    global resposta
     
     soma = 0
 
