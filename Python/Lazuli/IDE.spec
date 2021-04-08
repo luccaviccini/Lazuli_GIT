@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['IDE.py'],
-             pathex=['C:\\Users\\LuccaViccini\\Desktop\\repos_GIT\\Lazuli_GIT\\Python\\Lazuli'],
+             pathex=['C:\\Users\\Lucca\\Documents\\GitHub\\Lazuli_GIT\\Python\\Lazuli'],
              binaries=[],
              datas=[],
              hiddenimports=[],

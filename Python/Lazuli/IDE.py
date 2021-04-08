@@ -5,6 +5,9 @@ global dic
 global resposta
 dic = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro','1':'Janeiro','2':'Fevereiro','3':'Março','4':'Abril','5':'Maio','6':'Junho','7':'Julho','8':'Agosto','9':'Setembro',}
 
+lista_nao_somar_debitos =  ['PAG BOLETO', 'ENVIO TEV']
+lista_nao_somar_creditos = ['RESG AUTOM', 'ENVIO TEV']
+
 ###### FUNÇÕES ######
 def restart_programa():
 
@@ -47,11 +50,14 @@ def pegar_mes():
 def somar_os_creditos():
 
     filer = open(root.filename,"r") # arquivo a ser lido
-    #filew = open ("Soma_creditos.txt", "w") # novo arquivo otimizado
-    global soma
+    
+    
     global resposta
     
-    soma = 0
+    global soma_creditos
+    global soma_debitos 
+    soma_creditos = 0
+    soma_debitos = 0
 
 
     for line in filer:
@@ -77,13 +83,20 @@ def somar_os_creditos():
 
         pointer = nline[11]
         if(pointer == "C"):
-            if(nline[7] == "RESG AUTOM"): continue
+            if(nline[7] in lista_nao_somar_creditos): continue      
+            soma_creditos = soma_creditos + float(nline[9])
 
-            soma = soma + float(nline[9])
+        elif(pointer == "D"):
+            if(nline[7] in lista_nao_somar_debitos): continue      
+            soma_debitos = soma_debitos + float(nline[9])
 
-    soma = round(soma,2)
 
-    resposta = Label(frame2, text = "R$ "+ str(soma))
+
+    soma_creditos = round(soma_creditos,2)
+    soma_debitos  = round(soma_debitos,2)
+
+
+    resposta = Label(frame2, text = "A soma dos créditos deu: R$ "+ str(soma_creditos) + '\n' + "A soma dos Débitos deu: R$ " + str(soma_debitos))
     resposta.pack()
 
     filer.close()
@@ -95,7 +108,9 @@ def somar_os_creditos():
 
 
 root = Tk()
-root.title('Somar extratos com C do Mês desejado')
+root.title('Somar créditos e débitos do Mês desejado')
+root.iconbitmap('Lazuli/lazuli.ico')
+
 
 ###### PRIMEIRO FRAME ########
 frame = LabelFrame(root, text = "Passo 1: Abrir o aquivo no formato TXT", padx=20, pady = 40)
