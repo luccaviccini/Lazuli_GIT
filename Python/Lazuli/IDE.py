@@ -5,8 +5,8 @@ global dic
 global resposta
 dic = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro','1':'Janeiro','2':'Fevereiro','3':'Março','4':'Abril','5':'Maio','6':'Junho','7':'Julho','8':'Agosto','9':'Setembro',}
 
-lista_nao_somar_debitos =  ['PAG BOLETO', 'ENVIO TEV']
-lista_nao_somar_creditos = ['RESG AUTOM', 'ENVIO TEV']
+lista_nao_somar_debitos =  ['PAG BOLETO', 'ENVIO TEV', 'PAG BOLETO', 'PAG GPS', 'ENVIO TED', 'DEB P FGTS', 'AGUA', 'PAG DARF', 'DB AT LUZ']
+lista_nao_somar_creditos = ['RESG AUTOM', 'ENVIO TEV', 'DEVOL TED']
 
 ###### FUNÇÕES ######
 def restart_programa():
@@ -109,7 +109,7 @@ def somar_os_creditos():
 
 root = Tk()
 root.title('Somar créditos e débitos do Mês desejado')
-root.iconbitmap('Lazuli/lazuli.ico')
+#root.iconbitmap("/Lazuli/lazuli.ico")
 
 
 ###### PRIMEIRO FRAME ########
